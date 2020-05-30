@@ -18,11 +18,11 @@
         var: default_user
 
   tasks:
-    - include: tasks/users.yml
+#    - include: tasks/users.yml
     - include: tasks/cron.yml
-    - include: tasks/packages.yml
-    - include: tasks/dns.yml
-    - include: tasks/gnome.yml
+#    - include: tasks/packages.yml
+#    - include: tasks/dns.yml
+#    - include: tasks/gnome.yml
 
   handlers:
     - include: handlers/main.yml
